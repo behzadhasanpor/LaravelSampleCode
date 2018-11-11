@@ -1,6 +1,6 @@
 
 <br>
-<h1>laravel sample project</h1>
+<h1>laravel simple sample project</h1>
 <br>
 this is the ER-Diagram of database scaffold
 <br>
