@@ -1,0 +1,107 @@
+.test{
+    background-color: red;
+}
+*{
+    direction: rtl;
+}
+#mainMenu{
+    height: 70px;
+}
+#mainMenu ul li a{
+    font-family: app-DimaFantasy;
+    height: 70px;
+    font-size: 16pt;
+}
+.app-align-self-center{
+     margin: 0 auto 0;
+}
+#profile-menu{
+    font-family: app-DimaFantasy;
+    font-size: 16pt;
+}
+#slide-show{
+    width: 75%;
+    margin: 0 auto 0;
+    font-family: app-DimaFantasy;
+    font-size: 16pt;
+}
+#right-side-menu{
+    min-height: 700px;
+}
+#left-side-menu{
+    font-family: app-DimaFantasy;
+    font-size: 16pt;
+}
+#mainContent{
+    top: 50px;
+    margin: 0 auto 0;
+    width: 87%;
+    min-height: 700px;
+}
+#mainContent-dashboard{
+    top: 50px;
+    margin: 0 auto 0;
+    width: 100%;
+    min-height: 700px;
+}
+.splitor{
+    position: relative;
+    top: 40px;
+    bottom: 40px;
+    border-bottom: 1px solid darkgray;
+    margin: 0 auto 0;
+    width: 80%;
+}
+.app-list-links{
+    font-size: 14pt;
+}
+.app-font-size-panel-title{
+    font-size: 17pt;
+}
+.app-main-content-right{
+    width: 75%;
+}
+.app-main-content-left{
+    width: 25%;
+}
+.app-font-size-large{
+    font-size: 20pt;
+}
+#article-tags{
+    font-size: 17pt;
+    color: rgba(42,5,42,0.56);
+}
+#passage_editor{
+    min-heighth: 600px;
+    max-height:     800px;
+}
+#car-wizard{
+    min-height:900px;
+}
+.wizard_section{
+    scroll-behavior: auto;
+}
+footer{
+    height: 400px;
+}
+.app-avatar img{
+    width: 20%;
+    height: 15%;
+}
+.app-avatar-comment img{
+    width: 80%;
+    height: 75%;
+}
+.image-collection{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(120,120,120,0.7);
+    width: 100%;
+    height: 100%;
+    z-index: 100000000;
+}
+#image-collection-btn{
+    color : orangered;
+    cursor: pointer;
+}

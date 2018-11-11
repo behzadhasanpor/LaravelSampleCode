@@ -1,0 +1,341 @@
+*{
+
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "DimaFantasy";
+    src: url("/fonts/DimaFantasy.ttf");
+}
+@font-face {
+    font-family: "DimaNaskh";
+    src: url("/fonts/DimaNaskh.ttf");
+}
+@font-face {
+    font-family: "DimaShekasteh";
+    src: url("/fonts/DimaShekasteh.ttf");
+}
+@font-face {
+    font-family: "DimaSogand";
+    src: url("/fonts/DimaSogand.ttf");
+}
+@font-face {
+    font-family: "BKoodakBold";
+    src: url("/fonts/BKoodakBold.ttf");
+}
+.app-top-100px{
+    top: 100px;
+}
+.app-top-200px{
+    top: 200px;
+}
+.app-top-250px{
+
+    top: 250px;
+}
+.app-link{
+    font-size: 15pt;
+    color: #98cbe8;
+    font-family: DimaFantasy;
+}
+.app-link-menu{
+    font-size: 20pt;
+    color: #98cbe8;
+    border: #5e5d5d 1px dashed;
+    height: 100%;
+}
+.app-border-radius-0{
+    border-radius: 0px;
+}
+.content-1{
+    z-index: 100;
+    position: relative;
+    top: -100px;
+    min-height: 200px;
+    color: #d5d5d5;
+    background-color: rgba(90,90,90,0.90);
+}
+.content-1-garage{
+    z-index: 100;
+    position: relative;
+    top: -200px;
+    height: 1000px;
+    color: #d5d5d5;
+    background-color: rgba(90,90,90,0.90);
+}
+.content{
+    z-index: 100;
+    position: relative;
+    min-height: 1000px;
+    top: -100px;
+    padding-top: 100px;
+    width: 100%;
+    background-color: rgba(90,90,90,0.90);
+}
+.content-garage{
+    z-index: 100;
+    position: relative;
+    min-height: 1000px;
+    top: -200px;
+    padding-top: 0px;
+    width: 100%;
+    background-color: rgba(90,90,90,0.90);
+}
+.app-bg-1{
+    background: #013A6B -webkit-linear-gradient(30deg, #013A6B 80%, #004E95 50%);
+}
+.app-font-naskh{
+    font-family: "DimaNaskh";
+}
+.app-font-fantesy{
+    font-family: "DimaFantasy";
+}
+.app-font-shekasteh{
+    font-family: "DimaShekasteh";
+}
+.app-font-sogand{
+    font-family: "DimaSogand";
+}
+.app-font-koodak{
+    font-family: "BKoodakBold";
+}
+nav{
+    z-index: 50000;
+}
+header{
+    min-height: 500px;
+    background: url("/images/app/bg4.jpg") no-repeat;
+    background-size: cover;
+    float: top;
+    position: absolute;
+    width: 100%;
+}
+.header-garage{
+    min-height: 700px;
+    background: url("/images/app/bg4.jpg") no-repeat;
+    background-size: cover;
+    float: top;
+    position: absolute;
+    width: 100%;
+}
+#car_image{
+    position: absolute;
+    z-index: 51000;
+    height: 280px;
+    width: 36%;
+    left: 0px;
+    top: 0px;
+}
+.app-section-right{
+    padding:70px;
+    height: 100%;
+    border-left: 1px dashed #5e5d5d;
+    color: #101010;
+}
+.app-section-left{
+    padding:30px;
+    height: 100%;
+    color: #101010;
+}
+.app-active-link{
+    background-color: #411c0e;
+}
+header div div{
+    padding-right: 20px;
+    top: 70px;
+//background: #013A6B -webkit-linear-gradient(30deg, #013A6B 70%, #004E95 30%);
+    border-right:3px dashed #004E95 ;
+    color: #d5d5d5;
+    font-size: 13px;
+    z-index: 500;
+}
+@font-face {
+    font-family: "BVahidBold";
+    src: url("/fonts/BVahidBold.ttf");
+}
+.app-font-vahid{
+    font-family: "BVahidBold";
+}
+.app-form{
+    background: transparent;
+    color: #ebcccc;
+}
+.app-form input{
+    background-color: #ebcccc;
+    border: 1px dashed #411c0e;
+}
+.app-situation{
+    position: relative;
+    z-index: 200;
+    top: 160px;
+    height: 60px;
+    width:80%;
+    background-color:rgba(140,25,80,0.7);
+    border-radius: 40px 40px 40px 40px;
+    color: #d5d5d5;
+    padding: 20px;
+}
+
+.one{
+    background: #013A6B -webkit-linear-gradient(30deg, #013A6B 50%, #004E95 50%);
+    min-height: 500px;
+}
+.content-2{
+    width: 98%;
+    position: relative;
+    top: 0px;
+    background: rgba(80,95,105,0.6) -webkit-linear-gradient(30deg, rgba(90,105,145,0.6) 50%, rgba(120,145,180,0.6) 50%);
+    box-shadow: 10px 15px rgba(120,120,120,0.6);
+    color: #98cbe8;
+}
+.app-login-form-bg *{
+    background: transparent;
+}
+
+.avatar-pic
+{
+    width: 150px;
+}
+
+.app-table-img{
+    width: 440px;
+    height: 210px;
+}
+.app-table-img-2{
+    width: 590px;
+    height: 450px;
+}
+.left-indent{
+    position: relative;
+    right: 100px;
+}
+.app-images{
+    height: 500px;
+    width: 70%;
+    background-color: #98cbe8;
+}
+.app-images img{
+    border: 2px dashed brown;
+}
+.app-center-align{
+    text-align: center;
+}
+#ajax-tags div{
+    border: #98cbe8;
+    margin-outside: 6px;
+}
+.app-img-photographer-list{
+    width: 150px;
+    height: 90px;
+}
+.app-tag{
+    display: inline;
+    border: yellow dashed 2px;
+    margin-outside: 6px;
+}
+.app-category{
+    display: inline;
+    border: yellow dashed 2px;
+    margin-outside: 6px;
+}
+.app-slide-show{
+    margin: 0 auto 0;
+    position: relative;
+    min-height: 500px;
+    top: 320px;
+    width: 65%;
+    z-index: 550000;
+}
+
+/* News */
+.news-slider {
+    /* Style the actual content */
+}
+.news-slider .text-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    float: left;
+    background-color: rgba(120, 150, 255, 0.6);
+    padding: 1em;
+    width: 100%;
+    height: 20%;
+}
+.news-slider .text-content *{
+    color: #000;
+}
+.news-slider .text-content h2 {
+    margin: 0;
+}
+.news-slider .text-content p {
+    margin: 1em 0;
+}
+.news-slider .text-content a.button-link {
+    padding: 0.25em 0.5em;
+    position: absolute;
+    bottom: 1em;
+}
+.news-slider .image-content {
+    line-height: 0;
+}
+.news-slider .image-content img {
+    width: 100%;
+}
+.news-slider .news-pager {
+    text-align: right;
+    display: block;
+    margin: 0.2em 0 0;
+    padding: 0;
+    list-style: none;
+}
+.news-slider .news-pager li {
+    display: inline-block;
+    padding: 0.6em;
+    margin: 0 0 0 1em;
+}
+.news-slider .news-pager li.sy-active a {
+    color: #31ace2;
+}
+.news-slider .news-pager li a {
+    font-weight: 500;
+    text-decoration: none;
+    display: block;
+    color: #222;
+}
+.app-slide-img{
+    height: inherit;
+}
+#role_selects{
+    display: block;
+}
+#image-collection-search{
+    display: none;
+}
+#image-collection{
+    display: none;
+    max-height: 1000px;
+    max-width: 700px;
+}
+.article-image{
+    width: 500px;
+}
+.app-border{
+    border: white 1px dashed;
+    padding: 5px;
+    display: inline;
+}
+div.text-content{
+    min-height: 130px;
+    text-align: center;
+}
+.app-more-link{
+    position: relative;
+    bottom: 100%;
+}
+.app-garage-row{
+    border-bottom: 1px dashed white;
+}
+.app-right-border{
+    border-right: 1px dashed white;
+}

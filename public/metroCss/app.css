@@ -1,0 +1,54 @@
+@font-face {
+  font-family: "app-DimaFantasy";
+  src: url("/fonts/DimaFantasy.ttf");
+}
+
+.app-font-fantesy {
+  font-family: "app-DimaFantasy";
+}
+
+@font-face {
+  font-family: "app-DimaNaskh";
+  src: url("/fonts/DimaNaskh.ttf");
+}
+
+.app-font-naskh {
+  font-family: "app-DimaNaskh";
+}
+
+@font-face {
+  font-family: "app-DimaShekasteh";
+  src: url("/fonts/DimaShekasteh.ttf");
+}
+
+.app-font-shekasteh {
+  font-family: "app-DimaShekasteh";
+}
+
+@font-face {
+  font-family: "app-DimaSogand";
+  src: url("/fonts/DimaSogand.ttf");
+}
+
+.app-font-sogand {
+  font-family: "app-DimaSogand";
+}
+
+@font-face {
+  font-family: "app-BKoodakBold";
+  src: url("/fonts/BKoodakBold.ttf");
+}
+
+.app-font-koodak {
+  font-family: "app-BKoodakBold";
+}
+
+@font-face {
+  font-family: "app-BVahidBold";
+  src: url("/fonts/BVahidBold.ttf");
+}
+
+.app-font-vahid {
+  font-family: "app-BVahidBold";
+}
+
